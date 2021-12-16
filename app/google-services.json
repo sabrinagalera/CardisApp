@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "981357425680",
+    "project_id": "cardiss-app",
+    "storage_bucket": "cardiss-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981357425680:android:9915da9fa3338e0a0a8695",
+        "android_client_info": {
+          "package_name": "com.example.cardissapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981357425680-4n65hqfnqf55a5dcbnpbkqc8vp40mqhi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUAO2ib6RJ8r1g0p-06Gm89Iqd9hH5aJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981357425680-4n65hqfnqf55a5dcbnpbkqc8vp40mqhi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

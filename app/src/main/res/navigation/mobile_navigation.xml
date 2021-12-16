@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/inicio">
+
+    <fragment
+        android:id="@+id/inicio"
+        android:name="com.example.cardissapp.ui.home.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_inicio_to_fragment_stock"
+            app:destination="@id/stock" />
+        <action
+            android:id="@+id/action_inicio_to_fragment_detalle_visita"
+            app:destination="@id/fragment_detalle_visita" />
+    </fragment>
+    <fragment
+        android:id="@+id/stock"
+        android:name="com.example.cardissapp.fragment_stock"
+        android:label="Stock"
+        tools:layout="@layout/fragment_stock" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.cardissapp.ui.login.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <fragment
+        android:id="@+id/fragment_detalle_visita"
+        android:name="com.example.cardissapp.fragment_detalle_visita"
+        android:label="Detalle Visita"
+        tools:layout="@layout/fragment_detalle_visita" />
+
+</navigation>
