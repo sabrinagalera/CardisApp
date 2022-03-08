@@ -1,5 +1,6 @@
 package com.example.cardissapp.Network
 
+import com.example.cardissapp.Adapters.DTOEmergAdapter
 import com.example.cardissapp.Models.*
 import com.example.cardissapp.data.model.LoggedInUser
 import retrofit2.Call
@@ -18,4 +19,9 @@ interface ApiInterface {
 
     @GET("DetalleVisita/{id}")
     fun getDetalles(@Path("id") id:Int): Call<DTOEmergencia>
+
+    @GET("HistorialCardiss/{id}")
+    fun  getHistorial(@Path("id") id: Int): Call<List<DTOEmergencia>>
+    @POST("DetalleVisita")
+    fun postearEstado(@Body userData: DTOEstadoVisita): Call<DTOEmergencia>
 }

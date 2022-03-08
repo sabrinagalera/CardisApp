@@ -60,10 +60,10 @@ class HomeFragment() : Fragment(), DTOEmergAdapter.HomeListener {
 
 
             }
-
+9
         }
 
-
+9
         return root
     }
 
@@ -80,9 +80,11 @@ class HomeFragment() : Fragment(), DTOEmergAdapter.HomeListener {
     override fun onItemDeleted(postModel: DTOEmergencia, position: Int) {
 
         Global.idEmergencia = postModel.id
+        Global.dni = postModel.documento
         NavHostFragment.findNavController(this)
             .navigate(R.id.fragment_detalle_visita)
 
       
     }
+
 }

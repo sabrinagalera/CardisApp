@@ -31,6 +31,15 @@
         android:id="@+id/fragment_detalle_visita"
         android:name="com.example.cardissapp.fragment_detalle_visita"
         android:label="Detalle Visita"
-        tools:layout="@layout/fragment_detalle_visita" />
+        tools:layout="@layout/fragment_detalle_visita" >
+        <action
+            android:id="@+id/action_fragment_detalle_visita_to_fragment_historial"
+            app:destination="@id/fragment_historial" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_historial"
+        android:name="com.example.cardissapp.fragment_historial"
+        android:label="Historial"
+        tools:layout="@layout/fragment_historial" />
 
 </navigation>
