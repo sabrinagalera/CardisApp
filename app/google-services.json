@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "981357425680",
-    "project_id": "cardiss-app",
-    "storage_bucket": "cardiss-app.appspot.com"
+    "project_number": "448350033736",
+    "project_id": "appcardiss",
+    "storage_bucket": "appcardiss.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:981357425680:android:9915da9fa3338e0a0a8695",
+        "mobilesdk_app_id": "1:448350033736:android:12a5c77adca1d659cd457d",
         "android_client_info": {
           "package_name": "com.example.cardissapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "981357425680-4n65hqfnqf55a5dcbnpbkqc8vp40mqhi.apps.googleusercontent.com",
+          "client_id": "448350033736-ep97ugkvfs05rquuujdi01ss1o2cop1o.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDUAO2ib6RJ8r1g0p-06Gm89Iqd9hH5aJU"
+          "current_key": "AIzaSyC5MwxCe9ivsru4B7Elwm8HcYm-FOXgtV8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "981357425680-4n65hqfnqf55a5dcbnpbkqc8vp40mqhi.apps.googleusercontent.com",
+              "client_id": "448350033736-ep97ugkvfs05rquuujdi01ss1o2cop1o.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
